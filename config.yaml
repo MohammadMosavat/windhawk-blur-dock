@@ -1,0 +1,36 @@
+theme: ''
+styleConstants:
+  - ''
+controlStyles:
+  - target: Taskbar.TaskbarFrame
+    styles:
+      - Width=Auto
+      - HorizontalAlignment=Center
+      - Margin=250,0,250,0
+  - target: Taskbar.TaskbarFrame > Grid#RootGrid
+    styles:
+      - Background:=<WindhawkBlur BlurAmount="30" TintOpacity="0.3" FallbackColor="{ThemeResource SystemChromeLowColor}" />
+      - Padding=10,0,10,0
+      - CornerRadius=16
+      - BorderBrush:=<SolidColorBrush Color="{ThemeResource SurfaceStrokeColorDefault}" />
+      - Margin=4,4,4,4
+  - target: Taskbar.TaskbarFrame > Grid#RootGrid > Taskbar.TaskbarBackground > Grid > Rectangle#BackgroundFill
+    styles:
+      - Visibility=Collapsed
+  - target: Rectangle#BackgroundStroke
+    styles:
+      - Visibility=Collapsed
+  - target: Taskbar.AugmentedEntryPointButton#AugmentedEntryPointButton > Taskbar.TaskListButtonPanel#ExperienceToggleButtonRootPanel
+    styles:
+      - Margin=0
+  - target: Grid#SystemTrayFrameGrid
+    styles:
+      - Visibility=Collapsed
+  - target: Taskbar.Gripper#GripperControl
+    styles:
+      - Width=Auto
+      - MinWidth=24
+themeResourceVariables:
+  - ''
+xamlDiagnosticsHandling: ''
+
