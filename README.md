@@ -1,6 +1,7 @@
 # Windhawk Blur Dock
 
 A Windhawk Blur Dock for Windows 11 — centered, floating, blurred dock-style taskbar with hidden system tray.
+
 <img width="1919" height="1040" alt="image" src="https://github.com/user-attachments/assets/842ac45d-1e66-4150-8282-3e7b0a487274" />
 
 ## Features
